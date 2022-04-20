@@ -1,0 +1,64 @@
+body {
+  background-color: #191765;
+  margin: 30px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 375px) {
+  /* Header Styling */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+
+  /* Introduction Styling */
+
+  .introduction-image {
+    position: relative;
+    top: -60px;
+    left: -31px;
+  }
+
+  .introduction {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 100px;
+  }
+
+  .introduction-name {
+    margin: 30px;
+    color: #7d73fc;
+    font-size: 48px;
+    position: relative;
+    top: -266px;
+    left: 17px;
+    text-align: center;
+  }
+
+  .soft-developer {
+    margin: 1px;
+    color: white;
+    position: relative;
+    top: -283px;
+    font-size: 32px;
+  }
+
+  .intro-paragraph {
+    margin: 0;
+    color: #c8c8d4;
+    position: relative;
+    top: -206px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .intro-line {
+    position: relative;
+    top: -164px;
+  }
+}

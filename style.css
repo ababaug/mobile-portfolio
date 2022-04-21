@@ -4,8 +4,9 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (min-width: 375px) {
@@ -18,8 +19,8 @@ body {
   }
 
   a {
-      text-decoration: none;
-      color: white;
+    text-decoration: none;
+    color: white;
   }
 
   /* Introduction Styling */
@@ -29,9 +30,11 @@ body {
     top: -60px;
     left: -31px;
   }
+
   .intro-section {
     height: 280px;
   }
+
   .introduction {
     text-align: center;
     display: flex;
@@ -64,7 +67,7 @@ body {
     position: relative;
     top: -206px;
     letter-spacing: 0.136em;
-    line-height: 2;```
+    line-height: 2;
     font-weight: 300;
     font-size: 17px;
   }
@@ -76,13 +79,13 @@ body {
 
   /* Styling Experience Section */
   .experience li {
-      list-style-type: none;
+    list-style-type: none;
   }
-  
+
   .experience {
-      color: white;
-      display: flex;
-      flex-direction: column;
+    color: white;
+    display: flex;
+    flex-direction: column;
   }
 
   .experience-image {
@@ -118,6 +121,7 @@ body {
     font-weight: 300;
     font-size: 17px;
   }
+
   .skills-align {
     letter-spacing: 0.1em;
     font-size: 16px;

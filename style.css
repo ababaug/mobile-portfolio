@@ -97,6 +97,10 @@ body {
 
   .experience-heading {
     padding-left: 37px;
+    color: #7d73fc;
+    letter-spacing: 0.136em;
+    font-weight: 200;
+    font-size: 17px;
   }
 
   .language {

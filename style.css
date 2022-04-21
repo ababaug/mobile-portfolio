@@ -1,0 +1,130 @@
+body {
+  background-color: #191765;
+  margin: 30px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 375px) {
+  /* Header Styling */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Introduction Styling */
+
+  .introduction-image {
+    position: relative;
+    top: -60px;
+    left: -31px;
+  }
+
+  .intro-section {
+    height: 280px;
+  }
+
+  .introduction {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .introduction-name {
+    margin: 30px;
+    color: #7d73fc;
+    font-size: 48px;
+    position: relative;
+    top: -266px;
+    left: 17px;
+    text-align: center;
+  }
+
+  .soft-developer {
+    margin: 1px;
+    color: white;
+    position: relative;
+    top: -283px;
+    font-size: 32px;
+  }
+
+  .intro-paragraph {
+    margin: 0;
+    color: #c8c8d4;
+    position: relative;
+    top: -206px;
+    letter-spacing: 0.136em;
+    line-height: 2;
+    font-weight: 300;
+    font-size: 17px;
+  }
+
+  .intro-section hr {
+    position: relative;
+    top: -184px;
+  }
+
+  /* Styling Experience Section */
+  .experience li {
+    list-style-type: none;
+  }
+
+  .experience {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-image {
+    background-image: url(images/Ellipse19.svg);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 179px;
+    position: absolute;
+    top: 623px;
+    right: 0;
+  }
+
+  .experience-heading {
+    padding-left: 37px;
+    color: #7d73fc;
+    letter-spacing: 0.136em;
+    font-weight: 200;
+    font-size: 17px;
+  }
+
+  .language {
+    display: flex;
+    justify-content: flex-start;
+    line-height: 2;
+    letter-spacing: 0.136em;
+    font-weight: 200;
+    font-size: 17px;
+  }
+
+  .list-text {
+    letter-spacing: 0.136em;
+    line-height: 2;
+    font-weight: 300;
+    font-size: 17px;
+  }
+
+  .skills-align {
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}

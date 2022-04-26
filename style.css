@@ -158,6 +158,15 @@ hr {
     justify-content: center;
   }
 
+  p {
+    color: #c8c8d4;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
   .work p {
     padding-left: 10px;
   }
@@ -172,10 +181,11 @@ hr {
   .project-holder {
     width: 327px;
     height: 236px;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0 5px 0;
     background-color: white;
   }
-   .work-section h2 {
+
+  .work-section h2 {
     margin-top: 24px;
     letter-spacing: 0.046em;
     line-height: 73px;
@@ -184,15 +194,6 @@ hr {
 
   section.work-section {
     padding-bottom: 15px;
-    }
-
-  p {
-    color: #c8c8d4;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
   }
 
   .project-button {
@@ -205,7 +206,7 @@ hr {
   .project-list {
     display: flex;
     padding-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .project-list > li:nth-child(1) > a:nth-child(1) {
@@ -285,14 +286,18 @@ hr {
   }
 
   .contact-form ul {
-    padding-left: 0px;
-    margin-right: 0px;
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-form li {
+    margin-bottom: 30px;
   }
 
   .contact-input {
     width: 312px;
     padding: 12px 0 12px 20px;
-    color: #81818C;
+    color: #81818c;
   }
 
   footer .social-media {
@@ -300,11 +305,10 @@ hr {
     list-style: none;
     text-decoration: none;
     padding-top: 43px;
-    margin-left: 55px;
-    margin: 0;
+    margin: 0 0 0 55px;
   }
 
   .contact-form > footer:nth-child(2) > a:nth-child(2) {
     letter-spacing: 0.212em;
-    }
+  }
 }

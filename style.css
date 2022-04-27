@@ -10,10 +10,6 @@ body {
   color: white;
 }
 
-hr {
-  color: #646369;
-}
-
 @media only screen and (min-width: 375px) {
   /* Header Styling */
   .navbar {
@@ -21,15 +17,6 @@ hr {
     align-items: center;
     justify-content: space-between;
     color: white;
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-  }
-
-  a:hover {
-    background-color: gray;
   }
 
   /* Introduction Styling */
@@ -60,6 +47,15 @@ hr {
     top: -266px;
     left: 17px;
     text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    background-color: gray;
   }
 
   .soft-developer {
@@ -185,6 +181,26 @@ hr {
     background-color: white;
   }
 
+  button:hover{
+    border: 2px solid #7D73FC;
+    background:#7D73FC;
+  }
+
+  button:active {
+    border: 2px solid #7D73FC;
+    background:#7D73FC;
+  }
+
+  button: visited {
+    border: 2px solid #7D73FC;
+    background:#5E42D7;
+  }
+
+  button {
+    border: 2px solid #7D73FC;
+    background:#2A2B33;
+  }
+
   .work-section h2 {
     margin-top: 24px;
     letter-spacing: 0.046em;
@@ -294,6 +310,10 @@ hr {
     margin-bottom: 30px;
   }
 
+  .contact-header {
+    color:#9390FF;
+  }
+
   .contact-input {
     width: 312px;
     padding: 12px 0 12px 20px;
@@ -305,10 +325,28 @@ hr {
     list-style: none;
     text-decoration: none;
     padding-top: 43px;
-    margin: 0 0 0 55px;
+    margin-left: 17px;
   }
 
+  .contact-form > footer:nth-child(2) > div:nth-child(1) {
+    margin-left: 16px;
+   }
+   
   .contact-form > footer:nth-child(2) > a:nth-child(2) {
-    letter-spacing: 0.212em;
+    letter-spacing: 0.256em;
   }
+  .contact-form hr {
+    width: 322px;
+  }
+
+  .contact-form > footer:nth-child(3) > a:nth-child(2) {
+    letter-spacing: 0.28em;
+   }
+
+   .footer-line {
+    width: 450px;
+    border-top: 1px solid #3a3837;
+    margin-left: -48px;
+   }
+   
 }

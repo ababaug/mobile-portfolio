@@ -48,12 +48,12 @@ body {
     left: 17px;
     text-align: center;
   }
-  
+
   a {
     text-decoration: none;
     color: white;
   }
-  
+
   a:hover {
     background-color: gray;
   }
@@ -181,24 +181,24 @@ body {
     background-color: white;
   }
 
-  button:hover{
-    border: 2px solid #7D73FC;
-    background:#7D73FC;
+  button {
+    border: 2px solid #7d73fc;
+    background: #7d73fc;
+  }
+
+  button:hover {
+    border: 2px solid #7d73fc;
+    background: #7d73fc;
   }
 
   button:active {
-    border: 2px solid #7D73FC;
-    background:#7D73FC;
+    border: 2px solid #7d73fc;
+    background: #5e42d7;
   }
 
-  button: visited {
-    border: 2px solid #7D73FC;
-    background:#5E42D7;
-  }
-
-  button {
-    border: 2px solid #7D73FC;
-    background:#2A2B33;
+  button:disabled {
+    border: 2px solid #7d73fc;
+    background: #2a2b33;
   }
 
   .work-section h2 {
@@ -311,7 +311,7 @@ body {
   }
 
   .contact-header {
-    color:#9390FF;
+    color: #9390ff;
   }
 
   .contact-input {
@@ -330,23 +330,23 @@ body {
 
   .contact-form > footer:nth-child(2) > div:nth-child(1) {
     margin-left: 16px;
-   }
-   
+  }
+
   .contact-form > footer:nth-child(2) > a:nth-child(2) {
     letter-spacing: 0.256em;
   }
+
   .contact-form hr {
     width: 322px;
   }
 
   .contact-form > footer:nth-child(3) > a:nth-child(2) {
     letter-spacing: 0.28em;
-   }
+  }
 
-   .footer-line {
+  .footer-line {
     width: 450px;
     border-top: 1px solid #3a3837;
     margin-left: -48px;
-   }
-   
+  }
 }

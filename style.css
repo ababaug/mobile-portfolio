@@ -83,6 +83,23 @@ hr {
     position: relative;
     top: -283px;
     font-size: 32px;
+    animation-duration: 5s;
+    animation-name: developer-moving;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes developer-moving{
+    from {
+      text-align: left;
+      color: rgb(236, 250, 46);
+    }
+  
+    to {
+      text-align: left;
+      margin-left: 70%;
+      color: green;
+    }
   }
 
   .intro-paragraph {

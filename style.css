@@ -23,6 +23,14 @@ hr {
     color: white;
   }
 
+  .navbar img {
+    transition: all 0.5s;
+  }
+
+  .navbar img:hover {
+    transform: rotate(90deg);
+  }
+
   a {
     text-decoration: none;
     color: white;
@@ -60,6 +68,13 @@ hr {
     top: -266px;
     left: 17px;
     text-align: center;
+    transition: all 0.5s;
+  }
+
+  .introduction-name:hover {
+    color:orange;
+    font-size: 87px;
+    box-shadow: 0 0 5px 5px rgba(170, 145, 98, 0.349);
   }
 
   .soft-developer {

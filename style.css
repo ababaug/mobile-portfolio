@@ -11,7 +11,7 @@ body {
 
 
 
-@media only screen and (min-width: 375px) {
+/* @media only screen and (min-width: 500px) { */
   /* Header Styling */
   .navbar {
     display: flex;
@@ -199,6 +199,7 @@ body {
   }
 
   .project-holder {
+    float: left;
     width: 327px;
     height: 236px;
     margin: 5px 0 5px 0;

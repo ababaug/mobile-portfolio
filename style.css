@@ -8,6 +8,7 @@ body {
 * {
   font-family: 'Roboto', sans-serif;
   color: white;
+  
 }
 
 @media only screen and (min-width: 375px) {
@@ -47,6 +48,11 @@ body {
     top: -266px;
     left: 17px;
     text-align: center;
+    transition: font-size 0.5s;
+  }
+
+  .introduction-name:hover {
+    font-size: 90px;
   }
 
   a {
@@ -64,6 +70,12 @@ body {
     position: relative;
     top: -283px;
     font-size: 32px;
+    transition: font-size 0.5s, color 0.5s;
+  }
+
+  .soft-developer:hover {
+    font-size: 70px;
+    color: red;
   }
 
   .intro-paragraph {
@@ -87,16 +99,21 @@ body {
     list-style-type: none;
   }
 
-  .experience {
+  .list-text {
     color: white;
     display: flex;
     flex-direction: column;
   }
 
+  .list-text:hover{
+    font-size: 20px;
+    color: red;
+  }
+
   .experience-image {
     background-image: url(images/Ellipse19.svg);
     background-repeat: no-repeat;
-    width: 74px;
+    width: 4.625rem;
     height: 179px;
     position: absolute;
     top: 623px;
@@ -139,6 +156,12 @@ body {
     text-decoration: none;
     padding-top: 43px;
     margin-left: 55px;
+    transition: width 0.5s, height 0.5s;
+  }
+
+  .social-media:hover{
+    width:45px;
+    height:50px;
   }
 
   .social-media a {
@@ -223,6 +246,11 @@ body {
     display: flex;
     padding-left: 0;
     margin-bottom: 0;
+    transition: 
+  }
+
+  .project-list {
+
   }
 
   .project-list > li:nth-child(1) > a:nth-child(1) {

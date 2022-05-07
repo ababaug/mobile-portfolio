@@ -34,7 +34,7 @@ hr {
     background: url("images/Ellipse18.svg") no-repeat;
     position: absolute;
     top: 35px;
-    left: 0px;
+    left: 0;
     width: 104px;
     height: 265px;
   }
@@ -99,11 +99,6 @@ hr {
     flex-direction: column;
   }
 
-  .language {
-    flex-wrap: wrap;
-
-  }
-
   .experience-image {
     background-image: url(images/exp-mob-img.svg);
     background-repeat: no-repeat;
@@ -124,6 +119,7 @@ hr {
 
   .language {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     line-height: 2;
     letter-spacing: 0.136em;
@@ -174,7 +170,6 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
     position: relative;
     top: 137px;
   }
@@ -401,26 +396,24 @@ hr {
   .footer-email {
     margin: 0 auto;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
-
   .header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding:26px 156px
+    padding: 26px 156px;
   }
 
   .navmenu {
-      display: flex;
-      align-items: center;
-      margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
   }
 
   .navmenu li {
-      margin-left: 2rem;
+    margin-left: 2rem;
   }
 
   .header-name {
@@ -462,7 +455,7 @@ hr {
     margin-right: auto;
     max-width: 361px;
     position: relative;
-    top: 0px;
+    top: 0;
   }
 
   .intro-line2 {
@@ -506,14 +499,8 @@ hr {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
-  }
-
-  .language {
-    font-size: 0.8rem;
-    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .experience-heading {
@@ -550,7 +537,7 @@ hr {
   .work-join {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     margin-top: 25px;
   }
 
@@ -558,7 +545,7 @@ hr {
     display: flex;
     align-items: center;
     position: relative;
-    top: 0px;
+    top: 0;
     left: 10px;
   }
 
@@ -591,7 +578,7 @@ hr {
     color: #646369;
     margin: 0 40px;
   }
-  
+
   .project-holder-1 {
     width: 60%;
     height: 23em;
@@ -603,7 +590,7 @@ hr {
   .project-holder-2 {
     width: 60%;
     height: 23em;
-    margin: 5px 0px 5px 20px;
+    margin: 5px 0 5px 20px;
     background-color: white;
     float: right;
   }
@@ -619,7 +606,7 @@ hr {
   .project-holder-4 {
     width: 60%;
     height: 23em;
-    margin: 5px 0px 5px 20px;
+    margin: 5px 0 5px 20px;
     background-color: white;
     float: right;
   }
@@ -690,5 +677,4 @@ hr {
     margin: 15px auto;
     display: flex;
   }
-
 }

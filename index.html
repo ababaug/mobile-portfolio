@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
@@ -11,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css" integrity="sha512-FEQLazq9ecqLN5T6wWq26hCZf7kPqUbFC9vsHNbXMJtSZZWAcbJspT+/NEAQkBfFReZ8r9QlA9JHaAuo28MTJA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mobile Portfolio</title>
 </head>
 <body>
@@ -20,65 +23,78 @@
             <h4 class="header-name"><a href="#">Augustine Abah</a></h4>
             <img src="images/Union.png" alt="">
         </nav>
+        <ul class="navmenu">
+            <li><a href="#" class="white-text">Portfolio</a></li>
+            <li><a href="#" class="white-text">About</a></li>
+            <li><a href="#" class="white-text">Contact</a></li>
+            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        </ul>
     </header>
     <!-- Introduction -->
-    <img src="images/Ellipse18.svg" class="introduction-image" alt="">
+    <!-- <img src="images/Ellipse18.svg" class="introduction-image" alt=""> -->
+    <div class="introduction-image"></div>
     <section class="intro-section">
         <div class="introduction">
             <h1 class="introduction-name">Augustine Abah</h1>
             <h2 class="soft-developer">Software Developer</h2>
             <p class="intro-paragraph">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,  don’t hesitate to contact me.</p>
         </div>
-        <hr>
     </section>
+    <hr class="intro-line">
+    <hr class="intro-line2">
     <section class="experience">
         <div class="experience-image"></div>
-        <div class="language">
-
-            <div class="lang-align">
-                <h4 class="experience-heading">Language</h4>
-                <ul class="list-text">
-                    <li><a href="">Javascript</a></li>
-                    <li><a href="">Ruby</a></li>
-                    <li><a href="">Html</a></li>
-                    <li><a href="">Css</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4 class="experience-heading">Frameworks</h4>
-                <ul class="list-text">
-                    
-                    <li><a href="">Bootstrap</a></li>
-                    <li><a href="">Ruby on Rails</a></li>
-                    <li><a href="">RSPec</a></li>
-                    <li><a href="">CapyBara</a></li><li><a href="">Selenium</a></li>
-                </ul>
+        <div class="skills-flex">
+            <div class="language">
+                <div class="lang-align">
+                    <h4 class="experience-heading">Language</h4>
+                    <ul class="list-text">
+                        <li><a href="">Javascript</a></li>
+                        <li><a href="">Ruby</a></li>
+                        <li><a href="">Html</a></li>
+                        <li><a href="">Css</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="experience-heading">Frameworks</h4>
+                    <ul class="list-text">
+                        <li><a href="">Bootstrap</a></li>
+                        <li><a href="">Ruby on Rails</a></li>
+                        <li><a href="">RSPec</a></li>
+                        <li><a href="">CapyBara</a></li><li><a href="">Selenium</a></li>
+                    </ul>
+                </div>
+                <div class="skills-align">
+                    <h4 class="experience-heading">Skills</h4>
+                    <ul class="list-text">
+                        <li><a href="">Codekit</a></li>
+                        <li><a href="">Github</a></li>
+                        <li><a href="">Codepen</a></li>
+                        <li><a href="">Gitlab</a></li>
+                        <li><a href="">Terminal</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="skills-align">
-            <h4 class="experience-heading">Skills</h4>
-            <ul class="list-text">
-                <li><a href="">Codekit</a></li>
-                <li><a href="">Github</a></li>
-                <li><a href="">Codepen</a></li>
-                <li><a href="">Gitlab</a></li>
-                <li><a href="">Terminal</a></li>
-            </ul>
+        <div class="work-join">
+            <div class="work1">
+                <p class="neutral-color">work</p>
+                <img src="images/Group55.png" alt="">
+            </div>
+            <div class="social-media">
+                <a href="https://angel.co"><img src="images/Angelist.png" alt=""></a>
+                <a href="https://linkedin.com"><img src="images/Linkedin.png" alt=""></a>
+                <a href="https://twitter.com"><img src="images/Twitter.png" alt=""></a>
+                <a href="https://github.com"><img src="images/GitHub.png" alt=""></a>
+                <a href="https://medium.com"><img src="images/Vector.png" alt=""></a>
+            </div>
+            <div class="work2">
+                <img src="images/Group55.png" alt="">
+                <p class="neutral-color">work</p>
+            </div>
         </div>
     </section>
-    <hr>
     <section>
-        <div class="social-media">
-            <a href="https://angel.co"><img src="images/Angelist.png" alt=""></a>
-            <a href="https://linkedin.com"><img src="images/Linkedin.png" alt=""></a>
-            <a href="https://twitter.com"><img src="images/Twitter.png" alt=""></a>
-            <a href="https://github.com"><img src="images/GitHub.png" alt=""></a>
-            <a href="https://medium.com"><img src="images/Vector.png" alt=""></a>
-        </div>
-        <div class="work">
-            <img src="images/Group55.png" alt="">
-            <p>work</p>
-        </div>
         <br>
         <br>
         <h1 class="recent-work">MY RECENT WORK</h1>
@@ -88,67 +104,130 @@
     </section>
     <section class="work-section">
         <div class="project-image-1"></div>
-        <div class="project-holder"></div>
-        <h2>Multi-Post Stories</h2>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="project-list">
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-        </ul>
-        <input type="submit" value="See Project" class="project-button">
+        <div class="project-holder-1"></div>
+        <div class="project-section">
+            <h2>Multi-Post Stories</h2>
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+            </p>
+            <ul class="project-list">
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Ruby</a></li>
+            </ul>
+            <button type="submit" class="project-button">See Project</button>
+        </div>
         <br>
         <br>
     </section>
     <section class="work-section">
-        <div class="project-holder"></div>
+        <div class="project-holder-2"></div>
         <div class="project-image-2"></div>
-        <h2>Multi-Post Stories</h2>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="project-list">
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-        </ul>
-        <input type="submit" value="See Project" class="project-button">
+        <div class="project-section">
+            <h2>Multi-Post Stories</h2>
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+            </p>
+            <ul class="project-list">
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Ruby</a></li>
+            </ul>
+            <button type="submit" class="project-button">See Project</button>
+        </div>
         <br>
         <br>
     </section>
 
     <section class="work-section">
-        <div class="project-holder"></div>
+        <div class="project-holder-3"></div>
         <h2>Multi-Post Stories</h2>
         <div class="project-image-3"></div>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="project-list">
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-        </ul>
-        <input type="submit" value="See Project" class="project-button">
+        <div class="project-section">
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+            </p>
+            <ul class="project-list">
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Ruby</a></li>
+            </ul>
+            <button type="submit" class="project-button">See Project</button>
+        </div>
         <br>
         <br>
     </section>
 
     <section class="work-section">
-        <div class="project-holder"></div>
+        <div class="project-holder-4"></div>
         <h2>Multi-Post Stories</h2>
         <div class="project-image-4"></div>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="project-list">
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Bootstrap</a></li>
-            <li><a href="#">Ruby</a></li>
-        </ul>
-        <input type="submit" value="See Project" class="project-button">
+        <div class="project-section">
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+            </p>
+            <ul class="project-list">
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Ruby</a></li>
+            </ul>
+            <button type="submit" class="project-button">See Project</button>
+        </div>
     </section>
+
+    <section class="contact-form">
+        <div class="mobile-contact">
+            <h2 class="contact-header">CONTACT US</h2>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
+            <form action="https://formspree.io/f/xqkngqel" method="post">
+            <ul>
+                <li>
+                    <input type="text" name="Text Input" class="contact-input" required placeholder="Text Input" maxlength="30" >
+                </li>
+                <li>
+                    <input type="email" name="ababaug@gmail.com" required   placeholder="Email" class="contact-input">
+                </li>
+                <li>
+                    <textarea name="user-message" required maxlength="500" id="msg" cols="30" rows="10" class="contact-input" placeholder="Enter text here"></textarea>
+                </li>
+                <li>
+                    <button type="submit" class="project-button">See Project</button>
+                </li>
+            </ul>
+            </form>
+        </div>
+
+        <div class="desktop-contact">
+            <h2 class="contact-header">Let’s chat!</h2>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
+            <form action="https://formspree.io/f/xqkngqel" method="post">
+            <ul>
+                <li>
+                    <input type="text" name="Name" class="contact-input" required placeholder="Name" maxlength="30" >
+                </li>
+                <li>
+                    <input type="email" name="ababaug@gmail.com" required   placeholder="Email" class="contact-input">
+                </li>
+                <li>
+                    <textarea name="user-message" required maxlength="500" id="msg1" cols="30" rows="10" class="contact-input" placeholder="Write your message here"></textarea>
+                </li>
+                <li>
+                    <button type="submit" class="project-button">See Project</button>
+                </li>
+            </ul>
+            </form>
+        </div>
+    </section>
+    <div class="footer-line"></div>
+    <footer>
+        <div class="social-media">
+            <a href="https://angel.co"><img src="images/Angelist.png" alt=""></a>
+            <a href="https://linkedin.com"><img src="images/Linkedin.png" alt=""></a>
+            <a href="https://twitter.com"><img src="images/Twitter.png" alt=""></a>
+            <a href="https://github.com"><img src="images/GitHub.png" alt=""></a>
+            <a href="https://medium.com"><img src="images/Vector.png" alt=""></a>
+            <a href="#" class="footer-email">ababaug@gmail.com</a>
+        </div>
+    </footer>
 </body>
 </html>

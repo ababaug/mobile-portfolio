@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# I designed the desktop version of the milestone portfolio project.
 
 > The project is to create the mobile version of my Portfolio.
 

@@ -1,20 +1,26 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-const zIndex = document.querySelector(".introduction-image")
+
+function bkgImg1() {
+    const menuH = document.querySelectorAll(".menu-img"); 
+    menuH.forEach((el) => { el.classList.toggle('active'); });
+}
+
+function mobileMenu() {
+    bkgImg1();
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
 
 hamburger.addEventListener("click", mobileMenu);
 
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+function closeMenu() {
+    bkgImg1();
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");   
 }
 
 const navLink = document.querySelectorAll(".nav-link");
 
 navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
 

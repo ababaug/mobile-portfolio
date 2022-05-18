@@ -31,10 +31,12 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: unset;
-    padding: 1rem 1.5rem;
     color: white;
-    margin: 20px 30px 20px 30px;
-    /* position: fixed; */
+    margin: 0 30px 20px 30px;
+  }
+
+  .nav-branding {
+    padding-top: 20px;
   }
 
   .nav-link {
@@ -49,12 +51,10 @@ a:hover {
     display: block;
     cursor: pointer;
     position: fixed;
-    right: 8%;
+    right: 20px;
     z-index: 5;
-  }
-
-  .menu-img1 {
-    display: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 
   .menu-img1.active {
@@ -63,13 +63,9 @@ a:hover {
     height: 375px;
     width: 194px;
     z-index: 10;
-    position: relative;
-    top: 502px;
-    left: 82px;
-  }
-
-  .menu-img2 {
-    display: none;
+    position: fixed;
+    top: 232px;
+    right: 0;
   }
 
   .menu-img2.active {
@@ -78,9 +74,9 @@ a:hover {
     height: 510px;
     width: 269px;
     z-index: 14;
-    position: relative;
-    top: -68px;
-    left: -61px;
+    position: fixed;
+    top: 46px;
+    left: 0;
   }
 
   .bar {
@@ -105,12 +101,9 @@ a:hover {
       transform: translateY(-8px) rotate(-45deg);
   }
 
-  /* .introduction-image{
-    display: none;
-  } */
-
   .nav-menu {
     display: none;
+    top:0px;
   }
 
   .nav-menu.active {
@@ -373,12 +366,13 @@ a:hover {
     display: flex;
     padding-left: 0;
     margin-bottom: 0;
+    list-style-type: none;
   }
 
   .project-list > li:nth-child(1) > a:nth-child(1) {
     border-right: 1px solid #555;
     box-sizing: border-box;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
   }
 
   .project-list > li:nth-child(2) > a:nth-child(1) {
@@ -498,13 +492,12 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
     padding: 1rem 1.5rem;
     margin: 20px 30px 20px 30px;
     width: auto;
@@ -577,7 +570,7 @@ a:hover {
     margin-right: auto;
     max-width: 361px;
     position: relative;
-    top: 0;
+    top: -16px;
   }
 
   .intro-line2 {
@@ -585,7 +578,7 @@ a:hover {
     margin-right: auto;
     max-width: 361px;
     position: relative;
-    top: 232px;
+    top: 208px;
   }
 
   .soft-developer {
@@ -651,6 +644,7 @@ a:hover {
     line-height: 2;
     font-weight: 300;
     font-size: 0.8rem;
+    list-style-type: none;
   }
 
   .skills-align {
@@ -663,7 +657,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 154px;
   }
 
   .work1 {
@@ -704,36 +698,90 @@ a:hover {
     margin: 0 40px;
   }
 
+  .work-section {
+    padding: ;
+  }
+
+  .project-section p {
+    color: #DFE1E6;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.033em;
+    font-weight: 500;
+  }
+
   .project-holder-1 {
-    width: 60%;
+    width: 55%;
     height: 23em;
-    margin: 5px 20px 5px 0;
+    margin: 5px 20px 5px 20px;
     background-color: white;
     float: left;
   }
 
   .project-holder-2 {
-    width: 60%;
+    width: 55%;
     height: 23em;
-    margin: 5px 0 5px 20px;
+    margin: 5px 20px 5px 20px;
     background-color: white;
     float: right;
   }
 
   .project-holder-3 {
-    width: 60%;
+    width: 55%;
     height: 23em;
-    margin: 5px 20px 5px 0;
+    margin: 5px 20px 5px 20px;
     background-color: white;
     float: left;
   }
 
   .project-holder-4 {
-    width: 60%;
+    width: 55%;
     height: 23em;
-    margin: 5px 0 5px 20px;
+    margin: 5px 20px 5px 20px;
     background-color: white;
     float: right;
+  }
+
+  .project-list {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+  
+  .project-button {
+    width: 90px;
+    height: 55px;
+    font-size: 12px;
+    margin-top: 50px;
+    background-color: #9390FF;
+  }
+
+  .project-list > li:nth-child(1) > a:nth-child(1) {
+    border-right: 1px solid #555;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    font-size: 10px;
+  }
+
+  .project-list > li:nth-child(2) > a:nth-child(1) {
+    border-right: 1px solid #555;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    font-size: 10px;
+  }
+
+  .project-list > li:nth-child(3) > a:nth-child(1) {
+    border-right: 1px solid #555;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    font-size: 10px;
+  }
+
+  .project-list > li:nth-child(4) > a:nth-child(1) {
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    font-size: 10px;
   }
 
   .project-image-1 {
@@ -778,10 +826,20 @@ a:hover {
 
   .work-section {
     margin: 45px;
+    padding-top: 89px;
   }
 
   .mobile-contact {
     display: none;
+  }
+
+  .project-section p {
+    padding-top: 20px;
+    color: #c8c8d4;
+  }
+
+  .project-section h2 {
+    padding-top: 40px;
   }
 
   .desktop-contact {
@@ -794,8 +852,32 @@ a:hover {
   }
 
   .contact-form {
-    margin: 120px auto;
-    width: 527px;
+    margin: 30px auto 0 auto;
+    width: 500px;
+    padding-left: 0;
+  }
+
+  form ul {
+    list-style-type: none;
+  }
+
+  .desktop-contact h2{
+    color: #9390FF;
+    margin-bottom: 24px;
+  }
+
+  .desktop-contact p {
+    color: #EBEBFF;
+    margin-bottom: 0px;
+  }
+
+  form.contact-form > ul:nth-child(1) {
+    padding-left: 0px;
+  }   
+
+  .contact-input {
+    margin-bottom: 15px;
+    width: 100%;
   }
 
   footer {

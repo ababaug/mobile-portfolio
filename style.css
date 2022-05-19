@@ -23,8 +23,7 @@ a:hover {
   background-color: gray;
 }
 
-
-/* Mobile style*/
+/* Mobile style */
 @media only screen and (max-width: 768px) {
   /* Header Styling */
   .navbar {
@@ -59,7 +58,7 @@ a:hover {
 
   .menu-img1.active {
     background-image: url("images/menu-1.svg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     height: 375px;
     width: 194px;
     z-index: 10;
@@ -94,22 +93,23 @@ a:hover {
   }
 
   .hamburger.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   .nav-menu {
     display: none;
-    top:0px;
+    top: 0;
   }
 
   .nav-menu.active {
     display: block;
     position: fixed;
     left: 0;
+
     /* top: 70px; */
     gap: 0;
     flex-direction: column;
@@ -128,7 +128,6 @@ a:hover {
     justify-content: space-between;
     align-items: center;
   }
-
 
   /* Introduction Styling */
 
@@ -242,8 +241,8 @@ a:hover {
   }
 
   ul.social-list:nth-child(2) {
-    padding-left: 0px;
-   }   
+    padding-left: 0;
+  }
 
   .work-join {
     margin: -64px auto 23px auto;
@@ -263,7 +262,6 @@ a:hover {
     justify-content: center;
     position: relative;
     top: 154px;
-    align-items: center;
     gap: 10px;
   }
 
@@ -495,14 +493,12 @@ a:hover {
   }
 
   ul.social-list:nth-child(1) {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
-
 }
 
 @media only screen and (min-width: 769px) {
-
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -607,6 +603,7 @@ a:hover {
     font-size: 1.0625rem;
     text-align: center;
     margin: 70px auto;
+    width: 364px;
   }
 
   .skills-flex {
@@ -620,7 +617,7 @@ a:hover {
     width: 35%;
     height: 20rem;
     position: absolute;
-    top: 537px;
+    top: 466px;
     right: -185px;
   }
 
@@ -666,7 +663,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 154px;
+    margin-top: 35px;
   }
 
   .work1 {
@@ -681,6 +678,12 @@ a:hover {
     display: flex;
     align-items: center;
     position: relative;
+  }
+
+  #portfolio {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .social-media {
@@ -699,24 +702,21 @@ a:hover {
     font-size: 42px;
     letter-spacing: 0.136em;
     line-height: 1.6;
-    margin: 0 40px;
+    margin: 20px 40px 0 40px;
   }
 
-  hr {
+  .recent-work-container hr {
     color: #646369;
-    margin: 0 40px;
-  }
-
-  .work-section {
-    padding: ;
+    margin: 0 40px 40px 40px;
   }
 
   .project-section p {
-    color: #DFE1E6;
+    color: #dfe1e6;
     font-size: 15px;
     line-height: 19px;
     letter-spacing: -0.033em;
     font-weight: 500;
+    padding-top: 20px;
   }
 
   .project-holder-1 {
@@ -725,6 +725,7 @@ a:hover {
     margin: 5px 20px 5px 20px;
     background-color: white;
     float: left;
+    margin-top: -54px;
   }
 
   .project-holder-2 {
@@ -733,6 +734,7 @@ a:hover {
     margin: 5px 20px 5px 20px;
     background-color: white;
     float: right;
+    margin-top: -54px;
   }
 
   .project-holder-3 {
@@ -741,6 +743,7 @@ a:hover {
     margin: 5px 20px 5px 20px;
     background-color: white;
     float: left;
+    margin-top: -54px;
   }
 
   .project-holder-4 {
@@ -749,6 +752,7 @@ a:hover {
     margin: 5px 20px 5px 20px;
     background-color: white;
     float: right;
+    margin-top: -54px;
   }
 
   .project-list {
@@ -757,13 +761,13 @@ a:hover {
     margin-bottom: 0;
     list-style-type: none;
   }
-  
+
   .project-button {
     width: 90px;
     height: 55px;
     font-size: 12px;
     margin-top: 50px;
-    background-color: #9390FF;
+    background-color: #9390ff;
   }
 
   .project-list > li:nth-child(1) > a:nth-child(1) {
@@ -842,15 +846,6 @@ a:hover {
     display: none;
   }
 
-  .project-section p {
-    padding-top: 20px;
-    color: #c8c8d4;
-  }
-
-  .project-section h2 {
-    padding-top: 40px;
-  }
-
   .desktop-contact {
     display: flex;
     padding: 120px 0 0 0;
@@ -863,7 +858,7 @@ a:hover {
   #contact {
     margin-top: 120px;
     margin-left: auto;
-   }   
+  }
 
   .contact-form {
     margin: 30px auto 0 auto;
@@ -875,8 +870,8 @@ a:hover {
     list-style-type: none;
   }
 
-  .desktop-contact h2{
-    color: #9390FF;
+  .desktop-contact h2 {
+    color: #9390ff;
     margin-bottom: 24px;
   }
 
@@ -885,19 +880,19 @@ a:hover {
   }
 
   .desktop-contact p {
-    color: #EBEBFF;
-    margin-bottom: 0px;
+    color: #ebebff;
+    margin-bottom: 0;
   }
 
   form.contact-form > ul:nth-child(1) {
-    padding-left: 0px;
-  }   
+    padding-left: 0;
+  }
 
   .contact-input {
     margin-bottom: 15px;
     width: 100%;
     padding: 5px;
-    color: #81818C;
+    color: #81818c;
   }
 
   footer {
@@ -921,9 +916,8 @@ a:hover {
   .social-list {
     display: flex;
     list-style-type: none;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     gap: 10px;
     margin-right: 20px;
   }
-
 }

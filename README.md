@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# I designed the desktop version of the milestone portfolio project.
+# I designed the mobile menu for the milestone project.
 
-> The project is to create the mobile version of my Portfolio.
+> The project is to design the mobile menu and make it work with java script.
 
 ![Screenshot](./images/shot.png)
 
 
 ## Built With
 
-- HTML and CSS
+- HTML, CSS and Java Script.
 
 ## Getting Started
 

@@ -1,23 +1,9 @@
 {
-  "name": "microverse-helloworld",
+  "name": "mobile-portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ababaug/microverse-helloworld.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ababaug/microverse-helloworld/issues"
-  },
-  "homepage": "https://github.com/ababaug/microverse-helloworld#readme",
-  "devDependencies": {
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "menu-background-image1.js",
+  "dependencies": {
     "hint": "^6.1.11",
     "nodemon": "^2.0.15",
     "package": "^1.0.1",
@@ -25,5 +11,25 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  }
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ababaug/mobile-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ababaug/mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/ababaug/mobile-portfolio#readme"
 }

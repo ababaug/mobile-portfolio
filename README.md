@@ -2,9 +2,9 @@
 
 # I designed the mobile menu for the milestone project.
 
-> The project is to design the mobile menu and make it work with java script.
+> The project is to validate email with java script.
 
-![Screenshot](./images/shot.png)
+![Screenshot](./images/Screenshot.png)
 
 
 ## Built With

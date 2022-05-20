@@ -1,5 +1,5 @@
 const mobEmail = document.querySelector('#mob-email');
-const deskForm = document.querySelector('#desk-form');
+const mobForm = document.querySelector('#mob-form');
 const isRequired = (value) => (value !== '');
 
 const isEmailValid = (email) => {
@@ -46,7 +46,7 @@ const checkEmail = () => {
   return valid;
 };
 
-deskForm.addEventListener('submit', () => {
+mobForm.addEventListener('submit', () => {
   isEmailValid();
   checkEmail();
 });

@@ -211,15 +211,15 @@
                     <input id="mob-name" type="text" name="Text Input" class="contact-input" placeholder="Text Input" required maxlength="30">
                 </li>
                 <li>
-                    <input id="mob-email" type="email" name="email" required pattern="[a-z@.0-9_]+" placeholder="Email" class="contact-input">
+                    <input id="mob-email" type="email" name="email" placeholder="Email" class="contact-input">
                 </li>
                 <li>
                     <textarea id="mob-text" name="user-message" cols="30" rows="10" class="contact-input" placeholder="Enter text here" required maxlength="500"></textarea>
                 </li>
                 <li><script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-                    <button type="submit" class="project-button">See Project</button>
+                    <button type="submit" class="project-button">Send</button>
                 </li>
-            </ul>
+            </ul><small id="mob-error"></small>
             </form>
         </div>
 
@@ -234,15 +234,15 @@
                         <input name="name" id="desk-name" class="contact-input" placeholder="Name" required maxlength="30">
                     </li>
                     <li>
-                        <input id="desk-email" type="email" name="email" required pattern="[a-z@.0-9_]+" placeholder="Email" class="contact-input">
+                        <input id="desk-email" type="email" name="email" placeholder="Email" class="contact-input">
                     </li>
                     <li>
                         <textarea name="user-message" id="desk-msg" cols="30" rows="10" class="contact-input" placeholder="Write your message here" required maxlength="500" ></textarea>
                     </li>
                     <li>
-                        <button type="submit" class="project-button">See Project</button>
+                        <button type="submit" class="project-button">Send</button>
                     </li>
-                </ul><small></small>
+                </ul><small id="desk-error"></small>
             </form>
         </div>
     </section>

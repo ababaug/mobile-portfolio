@@ -494,6 +494,12 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  #mob-error {
+    color: red;
+    font-style: italic;
+  }
+
 }
 
 @media only screen and (min-width: 769px) {
@@ -917,5 +923,10 @@ a:hover {
     margin-bottom: 0;
     gap: 10px;
     margin-right: 20px;
+  }
+
+  #desk-error{
+    color: red;
+    font-style: italic;
   }
 }

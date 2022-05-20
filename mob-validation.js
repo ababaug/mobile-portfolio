@@ -1,5 +1,5 @@
 const mobEmail = document.querySelector('#mob-email');
-const deskForm = document.querySelector('#desk-form');
+const mobForm = document.querySelector('#mob-form');
 const isRequired = (value) => (value !== '');
 
 const isEmailValid = (email) => {
@@ -15,7 +15,7 @@ const showError = (input, message) => {
   formField.classList.add('error');
 
   // show the error message
-  const error = formField.querySelector('small');
+  const error = document.querySelector('#mob-error');
   error.textContent = message;
 };
 
@@ -28,17 +28,22 @@ const showSuccess = (input) => {
   formField.classList.add('success');
 
   // hide the error message
-  const error = formField.querySelector('small');
+  const error = document.querySelector('#mob-error');
   error.textContent = '';
 };
 
-const checkEmail = () => {
+const checkEmail = (e) => {
   let valid = false;
   const email = mobEmail.value.trim();
   if (!isRequired(email)) {
     showError(mobEmail, 'Email cannot be blank.');
+    e.preventDefault();
   } else if (!isEmailValid(email)) {
     showError(mobEmail, 'Email is not valid.');
+    e.preventDefault();
+  } else if (email.toLowerCase()!== email){
+    showError(mobEmail,'Email should in lower case letters');
+    e.preventDefault();
   } else {
     showSuccess(mobEmail);
     valid = true;
@@ -46,7 +51,8 @@ const checkEmail = () => {
   return valid;
 };
 
-deskForm.addEventListener('submit', () => {
+mobForm.addEventListener('submit', (e) => {
+  
   isEmailValid();
-  checkEmail();
+  checkEmail(e);
 });

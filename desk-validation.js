@@ -1,13 +1,13 @@
 const deskEmail = document.querySelector('#desk-email');
 const deskForm = document.querySelector('#desk-form');
-const isRequired = (value) => (value !== '');
+const isDeskRequired = (value) => (value !== '');
 
-const isEmailValid = (email) => {
+const isDeskEmailValid = (email) => {
   const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 };
 
-const showError = (input, message) => {
+const deskShowError = (input, message) => {
   // get the form-field element
   const formField = input.parentElement;
   // add the error class
@@ -15,11 +15,11 @@ const showError = (input, message) => {
   formField.classList.add('error');
 
   // show the error message
-  const error = formField.querySelector('small');
+  const error = document.querySelector('#desk-error');
   error.textContent = message;
 };
 
-const showSuccess = (input) => {
+const deskShowSuccess = (input) => {
   // get the form-field element
   const formField = input.parentElement;
 
@@ -28,26 +28,31 @@ const showSuccess = (input) => {
   formField.classList.add('success');
 
   // hide the error message
-  const error = formField.querySelector('small');
+  const error = document.querySelector('#desk-error');
   error.textContent = '';
 };
 
-const checkEmail = () => {
+const deskCheckEmail = (e) => {
   let valid = false;
   const email = deskEmail.value.trim();
-  if (!isRequired(email)) {
-    showError(deskEmail, 'Email cannot be blank.');
-  } else if (!isEmailValid(email)) {
-    showError(deskEmail, 'Email is not valid.');
+  if (!isDeskRequired(email)) {
+    deskShowError(deskEmail, 'Email cannot be blank.');
+    e.preventDefault();
+  } else if (!isDeskEmailValid(email)) {
+    deskShowError(deskEmail, 'Email is not valid.');
+    e.preventDefault();
+  } else if (email.toLowerCase()!== email){
+    deskShowError(deskEmail,'Email should be in lower case letters');
+    e.preventDefault();
   } else {
-    showSuccess(deskEmail);
+    deskShowSuccess(deskEmail);
     valid = true;
   }
   return valid;
 };
 
 deskForm.addEventListener('submit',
-  () => {
-    isEmailValid();
-    checkEmail();
+  (e) => {
+    isDeskEmailValid();
+    deskCheckEmail(e);
   });

@@ -41,8 +41,8 @@ const deskCheckEmail = (e) => {
   } else if (!isDeskEmailValid(email)) {
     deskShowError(deskEmail, 'Email is not valid.');
     e.preventDefault();
-  } else if (email.toLowerCase()!== email){
-    deskShowError(deskEmail,'Email should be in lower case letters');
+  } else if (email.toLowerCase() !== email) {
+    deskShowError(deskEmail, 'Email should be in lower case letters');
     e.preventDefault();
   } else {
     deskShowSuccess(deskEmail);

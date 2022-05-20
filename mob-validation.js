@@ -41,8 +41,8 @@ const checkEmail = (e) => {
   } else if (!isEmailValid(email)) {
     showError(mobEmail, 'Email is not valid.');
     e.preventDefault();
-  } else if (email.toLowerCase()!== email){
-    showError(mobEmail,'Email should in lower case letters');
+  } else if (email.toLowerCase() !== email) {
+    showError(mobEmail, 'Email should in lower case letters');
     e.preventDefault();
   } else {
     showSuccess(mobEmail);
@@ -52,7 +52,6 @@ const checkEmail = (e) => {
 };
 
 mobForm.addEventListener('submit', (e) => {
-  
   isEmailValid();
   checkEmail(e);
 });

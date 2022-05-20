@@ -46,7 +46,8 @@ const checkEmail = () => {
   return valid;
 };
 
-deskForm.addEventListener('submit', () => {
+deskForm.addEventListener('submit', 
+() => {
   isEmailValid();
   checkEmail();
 });

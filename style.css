@@ -494,6 +494,11 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  .pop-image {
+    width: 327px;
+    height: 837px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -917,5 +922,12 @@ a:hover {
     margin-bottom: 0;
     gap: 10px;
     margin-right: 20px;
+  }
+  
+  .mainDiv {
+    width: 100vh;
+    height: 100vh;
+    position:fixed;
+    top: 0;
   }
 }

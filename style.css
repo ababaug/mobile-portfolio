@@ -31,7 +31,7 @@ a:hover {
 .flex-hd {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 20px
+  margin-bottom: 5%;
 }
 
 .modal-title {
@@ -56,33 +56,37 @@ a:hover {
 }
 
 .flex-bd .project-list {
-	display: flex;
-	padding-left: 0;
-	margin-bottom: 0;
-	list-style-type: none;
-	margin-bottom: 20px;
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
 }
 
 .see-btn {
-  display: block;
+  display: flex;
   justify-content: space-between;
-  gap: 1;
 }
 
 .btn-style {
   font-size: 12px;
   height: 38px;
   width: 111px;
-  background-color: #7D73FC;
-  ;
+  background-color: #7d73fc;
+  text-decoration: none;
+  text-align: center;
 }
 
-.see-live{
-  margin-right: 20px;
+div.btn-style:nth-child(2) {
+  margin-left: 23px;
+  text-align: center;
+}
+
+.see-live {
+  margin-right: 25px;
 }
 
 .see-source {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .work-line {
@@ -570,11 +574,6 @@ a:hover {
   }
 
   .pop-image {
-    width: 327px;
-    height: 837px;
-  }
-
-  .pop-image {
     width: 100%;
     height: 20%;
   }
@@ -1007,5 +1006,4 @@ a:hover {
     gap: 10px;
     margin-right: 20px;
   }
-  
 }

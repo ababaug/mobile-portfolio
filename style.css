@@ -24,8 +24,12 @@ a:hover {
 }
 
 .modal-body {
-  background-color: #191765;
+  background: rgba(255, 255, 255, 0.16);
   height: auto;
+}
+
+.modal-content {
+  background: rgba(26, 39, 212, 0.9);
 }
 
 .flex-hd {

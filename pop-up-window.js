@@ -1,3 +1,38 @@
+const popWin = document.querySelector('.modal');
+const popDiv = document.createElement('div');
+const popHead = document.createElement('h4');
+popHead.textContent = 'Multi-Post stories';
+popHead.append(popDiv);
+
+popWin.append(popDiv);
+popDiv.innerHTML = `
+  <div class="modal-body">
+      <div class="flex-hd">
+          <h5 class="modal-title">Multi-Post stories</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="flex-bd">
+          <img src="images/pop-up-image.png" alt="pop up image" class="pop-image">
+          <p class="pop-up-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.</p>
+          <ul class="project-list">
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+          </ul>
+          <div class="see-btn">
+              <div class="btn-style">
+                  <a class="see-live" id="seelive">See Live <img src="images/seelive.png" alt=""> </a>
+              </div>
+
+              <div class="btn-style">
+                  <a class="see-source" id="seeSource">See Source  <img src="images/Vector-1.png" alt=""> </a>
+              </div>
+          </div>
+      </div>
+  </div>
+`;
+
 const projects = [
   {
     id: '1',

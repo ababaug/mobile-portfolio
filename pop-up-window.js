@@ -1,6 +1,5 @@
 const popWin = document.querySelector('.modal');
 const popDiv = document.createElement('div');
-const popHead = document.createElement('h4');
 
 popWin.append(popDiv);
 popDiv.innerHTML = `

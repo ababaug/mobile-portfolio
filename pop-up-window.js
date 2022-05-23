@@ -1,8 +1,7 @@
-const popWin = document.querySelector('.modal');
+const popWin= document.querySelector('.modal');
 const popDiv = document.createElement('div');
 const popHead = document.createElement('h4');
-popHead.textContent = 'Multi-Post stories';
-popHead.append(popDiv);
+popHead.textContent="Multi-Post stories";
 
 popWin.append(popDiv);
 popDiv.innerHTML = `

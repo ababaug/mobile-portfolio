@@ -23,9 +23,14 @@ a:hover {
   background-color: gray;
 }
 
+.modal {
+  background: rgba(209, 69, 236, 0.8);
+}
+
 .modal-body {
-  background: rgba(255, 255, 255, 0.16);
+  background: rgba(209, 69, 236, 0.747);
   height: auto;
+  width: auto;
 }
 
 .modal-content {
@@ -43,7 +48,7 @@ a:hover {
 }
 
 .pop-image {
-  width: 100%;
+  width: 80%;
   height: 80%;
 }
 
@@ -72,12 +77,17 @@ a:hover {
 }
 
 .btn-style {
-  font-size: 12px;
-  height: 38px;
-  width: 111px;
-  background-color: #7d73fc;
-  text-decoration: none;
+  display: block;
+  width: 132px;
+  height: 46px;
+  padding: 11px;
   text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 26px;
+  background-color: #7d73fc;
 }
 
 div.btn-style:nth-child(2) {
